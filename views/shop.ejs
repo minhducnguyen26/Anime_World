@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anime World | High Quality Action Figures</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Start buying your favorite anime character's action figure from today!">
+    <meta name="author" content="Minh Nguyen">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/icon.png">
+    <script src="https://checkout.stripe.com/checkout.js" defer></script>
+    <script>
+        var stripePublicKey = '<%= stripePublicKey %>'
+    </script>
+    <script src="shop.js" defer></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/icon.png">
+</head>
+
+<body>
+    <header class="background background_top">
+        <nav class="nav main_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+        </nav>
+
+        <h1 class="name name_large">Anime World</h1>
+    </header>
+
+    <div class="option_menu">
+        <nav class="option_nav">
+            <ul>
+                <li>
+                    <select class="anime_options">
+                        <option style="display: none;">Choose Your Anime</option>
+                        <option>Bleach</option>
+                        <option>Dragon Ball</option>
+                        <option>Fairy Tail</option>
+                        <option>My Hero Academia</option>
+                        <option>Naruto</option>
+                        <option>One Piece</option>
+                    </select>
+                </li>
+                <li onclick="document.getElementById('pop_up_cart').style.display='block'" title="Checkout"><img class="cart_button" class="cart_icon" src="images/Icons/cart.png" height="35" /><img class="cart_hover" src="images/Icons/cart_hover.png" height="35" /></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="container content_section container_shop">
+        <h2 class="section_header">ACTION FIGURES</h2>
+
+        <div id="animes">
+            <img id="img_bleach" src="images/Bleach/Logo.png">
+            <img id="img_dragon_ball" src="images/Dragon Ball/Logo.png">
+            <img id="img_fairy_tail" src="images/Fairy Tail/Logo.png">
+            <img id="img_my_hero_academia" src="images/My Hero Academia/Logo.png">
+            <img id="img_naruto" src="images/Naruto/Logo.png">
+            <img id="img_one_piece" src="images/One Piece/Logo.png">
+        </div>
+
+        <div class="shop_items" id="dropdown_bleach">
+            <% items.bleach.forEach(function(item) { %>
+                <div class="shop_item" data-item-id="<%= item.id %>">
+                    <img class="item_image" src="images/<%= item.image_name %>">
+                    <span class="item_name"><%= item.name %></span>
+                    <div class="item_details">
+                        <span class="price_text">Price:</span>
+                        <span class="item_price">$<%= (item.price / 100).toFixed(2) %></span>
+                        <button class="select_button shop_button">ADD TO CART</button>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+
+        <div class="shop_items" id="dropdown_dragon_ball">
+            <% items.dragon_ball.forEach(function(item) { %>
+                <div class="shop_item" data-item-id="<%= item.id %>">
+                    <img class="item_image" src="images/<%= item.image_name %>">
+                    <span class="item_name"><%= item.name %></span>
+                    <div class="item_details">
+                        <span class="price_text">Price:</span>
+                        <span class="item_price">$<%= (item.price / 100).toFixed(2) %></span>
+                        <button class="select_button shop_button">ADD TO CART</button>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    
+        <div class="shop_items" id="dropdown_fairy_tail">
+            <% items.fairy_tail.forEach(function(item) { %>
+                <div class="shop_item" data-item-id="<%= item.id %>">
+                    <img class="item_image" src="images/<%= item.image_name %>">
+                    <span class="item_name"><%= item.name %></span>
+                    <div class="item_details">
+                        <span class="price_text">Price:</span>
+                        <span class="item_price">$<%= (item.price / 100).toFixed(2) %></span>
+                        <button class="select_button shop_button">ADD TO CART</button>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+
+        <div class="shop_items" id="dropdown_my_hero_academia">
+            <% items.my_hero_academia.forEach(function(item) { %>
+                <div class="shop_item" data-item-id="<%= item.id %>">
+                    <img class="item_image" src="images/<%= item.image_name %>">
+                    <span class="item_name"><%= item.name %></span>
+                    <div class="item_details">
+                        <span class="price_text">Price:</span>
+                        <span class="item_price">$<%= (item.price / 100).toFixed(2) %></span>
+                        <button class="select_button shop_button">ADD TO CART</button>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+
+        <div class="shop_items" id="dropdown_naruto">
+            <% items.naruto.forEach(function(item) { %>
+                <div class="shop_item" data-item-id="<%= item.id %>">
+                    <img class="item_image" src="images/<%= item.image_name %>">
+                    <span class="item_name"><%= item.name %></span>
+                    <div class="item_details">
+                        <span class="price_text">Price:</span>
+                        <span class="item_price">$<%= (item.price / 100).toFixed(2) %></span>
+                        <button class="select_button shop_button">ADD TO CART</button>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+
+        <div class="shop_items" id="dropdown_one_piece">
+            <% items.one_piece.forEach(function(item) { %>
+                <div class="shop_item" data-item-id="<%= item.id %>">
+                    <img class="item_image" src="images/<%= item.image_name %>">
+                    <span class="item_name"><%= item.name %></span>
+                    <div class="item_details">
+                        <span class="price_text">Price:</span>
+                        <span class="item_price">$<%= (item.price / 100).toFixed(2) %></span>
+                        <button class="select_button shop_button">ADD TO CART</button>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </section>
+
+    <section class="modal" id="pop_up_cart">
+        <div class="modal_content animate">
+            <div class="x_close">
+                <span onclick="document.getElementById('pop_up_cart').style.display='none'" class="close" title="Close">&times;</span>
+            </div>
+
+            <h2 class="section_header">CART</h2>
+
+            <div class="cart_row">
+                <span class="cart_item cart_header cart_column">ITEM</span>
+                <span class="cart_price cart_header cart_column">PRICE</span>
+                <span class="cart_quantity cart_header cart_column">QUANTITY</span>
+            </div>
+
+            <div class="cart_items"></div>
+
+            <div class="cart_total">
+                <span class="total_title">TOTAL:</span>
+                <span class="total_price">$0.00</span>
+            </div>
+
+            <button class="select_button purchase_button" type="button">PURCHASE</button>
+        </div>
+    </section>
+
+    <div id="assistant"></div>
+    <div id="alert"></div>
+
+    <footer class="background">
+        <div class="container footer_container">
+            <h3 class="name">Anime World</h3>
+            <ul class="nav footer_nav">
+                <li><a href="https://facebook.com" target="_blank"><img class="social_link" src="images/Icons/facebook.png" width="50"></a></li>
+                <li><a href="https://instagram.com" target="_blank"><img class="social_link" src="images/Icons/instagram.png" width="50"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,326 @@
+{
+    "bleach" : [
+        {
+            "id": "b_1",
+            "name": "Byakuya Kuchiki",
+            "price": 4500,
+            "image_name": "Bleach/Byakuya.jpg"
+        },
+        {
+            "id": "b_2",
+            "name": "Ichigo Kurosaki",
+            "price": 5000,
+            "image_name": "Bleach/Ichigo.jpg"
+        },
+        {
+            "id": "b_3",
+            "name": "Kenpachi Zaraki",
+            "price": 4000,
+            "image_name": "Bleach/Kenpachi.jpg"
+        },
+        {
+            "id": "b_4",
+            "name": "Renji Abarai",
+            "price": 5000,
+            "image_name": "Bleach/Renji.jpg"
+        },
+        {
+            "id": "b_5",
+            "name": "Toshiro Hitsugaya",
+            "price": 5000,
+            "image_name": "Bleach/Toshiro.jpg"
+        },
+        {
+            "id": "b_6",
+            "name": "Ulquiorra Cifer",
+            "price": 5000,
+            "image_name": "Bleach/Ulquiorra.jpg"
+        }
+    ],
+    "dragon_ball" :[
+        {
+            "id": "db_1",
+            "name": "Broly & Goku",
+            "price": 5000,
+            "image_name": "Dragon Ball/Broly 1.jpg"
+        },
+        {
+            "id": "db_2",
+            "name": "Son Goku",
+            "price": 4500,
+            "image_name": "Dragon Ball/Goku.jpg"
+        },
+        {
+            "id": "db_3",
+            "name": "Krillin",
+            "price": 4500,
+            "image_name": "Dragon Ball/Krillin.jpg"
+        },
+        {
+            "id": "db_4",
+            "name": "Piccolo",
+            "price": 4500,
+            "image_name": "Dragon Ball/Piccolo.jpg"
+        },
+        {
+            "id": "db_5",
+            "name": "Vegeta (Majin)",
+            "price": 4500,
+            "image_name": "Dragon Ball/Vegeta.jpg"
+        },
+        {
+            "id": "db_6",
+            "name": "Broly",
+            "price": 4000,
+            "image_name": "Dragon Ball/Broly.jpg"
+        }
+    ],
+    "fairy_tail" : [
+        {
+            "id": "ft_1",
+            "name": "Gray Fullbuster",
+            "price": 4500,
+            "image_name": "Fairy Tail/Gray.jpg"
+        },
+        {
+            "id": "ft_2",
+            "name": "Natsu Dragneel",
+            "price": 5000,
+            "image_name": "Fairy Tail/Natsu.jpg"
+        },
+        {
+            "id": "ft_3",
+            "name": "Lucy Heartfilia",
+            "price": 5000,
+            "image_name": "Fairy Tail/Lucy.jpg"
+        },
+        {
+            "id": "ft_4",
+            "name": "Lucy Heartfilia 2.0",
+            "price": 4000,
+            "image_name": "Fairy Tail/Lucy 1.jpg"
+        },
+        {
+            "id": "ft_5",
+            "name": "Natsu Dragneel 2.0",
+            "price": 4000,
+            "image_name": "Fairy Tail/Natsu 1.jpg"
+        },
+        {
+            "id": "ft_6",
+            "name": "Erza Scarlet",
+            "price": 4000,
+            "image_name": "Fairy Tail/Erza 1.jpg"
+        },
+        {
+            "id": "ft_7",
+            "name": "Erza Scarlet",
+            "price": 4500,
+            "image_name": "Fairy Tail/Erza.jpg"
+        },
+        {
+            "id": "ft_8",
+            "name": "Laxus Dreyar",
+            "price": 4000,
+            "image_name": "Fairy Tail/Laxus.jpg"
+        }
+    ],
+    "my_hero_academia" : [
+        {
+            "id": "mha_1",
+            "name": "Katsuki Bakugo",
+            "price": 4000,
+            "image_name": "My Hero Academia/Bakugo.jpg"
+        },
+        {
+            "id": "mha_2",
+            "name": "All Might",
+            "price": 4500,
+            "image_name": "My Hero Academia/All Might.jpg"
+        },
+        {
+            "id": "mha_3",
+            "name": "Izuku Midoriya",
+            "price": 4000,
+            "image_name": "My Hero Academia/Midoriya.jpg"
+        }
+    ],
+    "naruto" : [
+        {
+            "id": "n_1",
+            "name": "Killer Bee",
+            "price": 5000,
+            "image_name": "Naruto/Bee.jpg"
+        },
+        {
+            "id": "n_2",
+            "name": "Gaara",
+            "price": 5000,
+            "image_name": "Naruto/Gaara.jpg"
+        },
+        {
+            "id": "n_3",
+            "name": "Hashirama Senju",
+            "price": 5000,
+            "image_name": "Naruto/Hashirama.jpg"
+        },
+        {
+            "id": "n_4",
+            "name": "Hinata Hyuga",
+            "price": 4500,
+            "image_name": "Naruto/Hinata.jpg"
+        },
+        {
+            "id": "n_5",
+            "name": "Jiraiya's Death",
+            "price": 5000,
+            "image_name": "Naruto/Jiraiya 1.jpg"
+        },
+        {
+            "id": "n_6",
+            "name": "Itachi Uchiha",
+            "price": 5000,
+            "image_name": "Naruto/Itachi.jpg"
+        },
+        {
+            "id": "n_7",
+            "name": "Kakashi Hatake",
+            "price": 4000,
+            "image_name": "Naruto/Kakashi.jpg"
+        },
+        {
+            "id": "n_8",
+            "name": "Tsunade",
+            "price": 4000,
+            "image_name": "Naruto/Tsunade.jpg"
+        },
+        {
+            "id": "n_9",
+            "name": "Jiraiya",
+            "price": 4000,
+            "image_name": "Naruto/Jiraiya.jpg"
+        },
+        {
+            "id": "n_10",
+            "name": "Obito Uchiha",
+            "price": 4500,
+            "image_name": "Naruto/Obito.jpg"
+        },
+        {
+            "id": "n_11",
+            "name": "Minato Namikaze",
+            "price": 4500,
+            "image_name": "Naruto/Minato.jpg"
+        },
+        {
+            "id": "n_12",
+            "name": "Orochimaru",
+            "price": 4000,
+            "image_name": "Naruto/Orochimaru.jpg"
+        },
+        {
+            "id": "n_13",
+            "name": "Naruto & Gamakichi",
+            "price": 5000,
+            "image_name": "Naruto/Naruto 2.jpg"
+        },
+        {
+            "id": "n_14",
+            "name": "Naruto Uzumaki",
+            "price": 4500,
+            "image_name": "Naruto/Naruto.jpg"
+        },
+        {
+            "id": "n_15",
+            "name": "Naruto & Kurama",
+            "price": 5000,
+            "image_name": "Naruto/Naruto 1.jpg"
+        },
+        {
+            "id": "n_16",
+            "name": "Hiruzen Sarutobi",
+            "price": 4000,
+            "image_name": "Naruto/Sarutobi.jpg"
+        },
+        {
+            "id": "n_17",
+            "name": "Sasuke Uchiha",
+            "price": 5000,
+            "image_name": "Naruto/Sasuke.jpg"
+        },
+        {
+            "id": "n_18",
+            "name": "Shikamaru Nara",
+            "price": 4000,
+            "image_name": "Naruto/Shikamaru.jpg"
+        },
+        {
+            "id": "n_19",
+            "name": "Tobirama Senju",
+            "price": 4500,
+            "image_name": "Naruto/Tobirama.jpg"
+        },
+        {
+            "id": "n_20",
+            "name": "Madara Uchiha",
+            "price": 5000,
+            "image_name": "Naruto/Madara.jpg"
+        }
+    ],
+    "one_piece" : [
+        {
+            "id": "op_1",
+            "name": "Portgas D. Ace",
+            "price": 5000,
+            "image_name": "One Piece/Ace.jpg"
+        },
+        {
+            "id": "op_2",
+            "name": "Tony Tony Chopper",
+            "price": 5000,
+            "image_name": "One Piece/Chopper.jpg"
+        },
+        {
+            "id": "op_3",
+            "name": "Trafalgar D. Water Law",
+            "price": 5000,
+            "image_name": "One Piece/Law.jpg"
+        },
+        {
+            "id": "op_4",
+            "name": "Nico Robin",
+            "price": 5000,
+            "image_name": "One Piece/Robin.jpg"
+        },
+        {
+            "id": "op_5",
+            "name": "Boa Hancock",
+            "price": 5000,
+            "image_name": "One Piece/Hancock.jpg"
+        },
+        {
+            "id": "op_6",
+            "name": "Usopp",
+            "price": 4500,
+            "image_name": "One Piece/Usopp.jpg"
+        },
+        {
+            "id": "op_7",
+            "name": "Edward Newgate",
+            "price": 5000,
+            "image_name": "One Piece/Whitebeard.jpg"
+        },
+        {
+            "id": "op_8",
+            "name": "Shanks",
+            "price": 5000,
+            "image_name": "One Piece/Shanks.jpg"
+        },
+        {
+            "id": "op_9",
+            "name": "Roronoa Zoro",
+            "price": 5000,
+            "image_name": "One Piece/Zoro.jpg"
+        }
+    ]
+}
